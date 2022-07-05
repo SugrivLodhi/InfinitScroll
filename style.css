@@ -1,0 +1,39 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ html {
+    font-size: 62.5%;
+ }
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  padding: 2rem 5rem; 
+  background-color: rgb(149, 120, 177);
+  color: aliceblue;
+}
+span{
+     display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(165, 165, 97);
+    color: rgb(6, 7, 7);
+    border-radius: 50%;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+} 
+h3{
+   font-size: 2.5rem; 
+}
+p{
+    font-size: 2rem;
+}
+.post {
+    margin-top: 2rem;
+    background-color: rgb(73, 127, 158);
+    min-height: 5rem;
+}
