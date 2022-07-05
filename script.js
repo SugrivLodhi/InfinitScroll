@@ -24,7 +24,7 @@ const showData = () =>{
     setTimeout(() =>{
        pageCount++
        getPost()
-    },1000)
+    },500)
 }
 window.addEventListener("scroll",() =>{
     const {scrollHeight,scrollTop,clientHeight} =document.documentElement
